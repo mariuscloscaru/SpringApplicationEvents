@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationContextInitializedEvent;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
@@ -28,7 +27,7 @@ public class MyEventsListener {
     }
 
     @EventListener
-    public void onApplicationStartedEvent(ApplicationStartedEvent ready) throws InterruptedException {
+    public void onApplicationStartedEvent(ApplicationStartedEvent ready) {
         System.out.println("---------ApplicationStartedEvent---------");
     }
 
