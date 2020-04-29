@@ -14,7 +14,7 @@ public class MyEventsListener {
 
     @EventListener
     public void onAApplicationStartingEvent(ApplicationStartingEvent event) {
-        System.out.println("---------ApplicationStartingEvent---------");
+        System.out.println("---------ApplicadddddddddddtionStartingEvent---------");
     }
 
     @EventListener
